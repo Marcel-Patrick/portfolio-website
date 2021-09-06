@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="SCHMIELDE contact me Page" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SCHMIEDLE</title>
+  <!--create logo and add it here!-->
+  <link rel="icon" type="image/png" href="img/apple-touch-icon-76x76.png" />
+  <!--from here the css styling part is starting-->
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <!--from here the css styling part is ending-->
+</head>
+<body>
+  <div class="page">
+    <header class="page-header">
+      <!--add your Logo here!-->
+      <img src="img/Schmiedle_Wappen.png" alt="SCHMIEDLE company logo" class="page-header__item">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation" class="navigation-list__item">
+            <a href="index.html" role="menuitem">Home</a>
+          </li>
+          <li role="presentation" class="navigation-list__item">
+            <a href="about.html" role="menuitem">About me</a>
+          </li>
+          <li role="presentation" class="navigation-list__item">
+            <a href="work.html" role="menuitem" class="navigation-list__item">My Work</a>
+          </li>
+          <li role="presentation" class="navigation-list__item">
+            <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-content">
+      <section>
+        <div>
+          <h1>Wanna get in touch with me?</h1>
+        </div>
+        <form action="contact.html" method="post" id="contact-form">
+          <table class="text-distance-2">
+            <tr>
+              <td><label class="standard-label" for="first-name">First Name:* </label></td>
+              <td><input type="text" id="first-name" required maxlength="25"></td>
+            </tr>
+            <tr>
+              <td><label class="standard-label" for="last-name">Last Name:* </label></td>
+              <td><input type="text" id="last-name" required maxlength="25"></td>
+            </tr>
+            <tr>
+              <td><label class="standard-label" for="contact-email">E-Mail:* </label></td>
+              <td><input type="email" id="contact-email" required></td>
+            </tr>
+            <tr>
+              <td><label class="standard-label" for="telephone">Telephone: </label></td>
+              <td><input type="tel" id="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"></td>
+            </tr>
+            <tr>
+              <td><label class="standard-label" for="message">Message:* </label></td>
+              <td><textarea id="message" required maxlength="240"></textarea></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><p style="font-size:12px">* this field is mandatory!</p></td>
+            </tr>
+            <tr>
+              <td><button class="button-yellow" type="button" name="button">Clear Form</button></td>
+              <td><button type="submit" name="button">Send Message</button></td>
+            </tr>
+          </table>
+        </form>
+        <div class="text-distance-2">
+          <h3>Marcel-Patrick Schmiedle</h3>
+          Eggenwatt 11 <br>
+          D - 88138  Weißensberg <br>
+          <br>
+          Tel:   <a class="contact_color" href="tel:+491626630654" aria-label="telephone: +491626630654">+49 162 66 30 654</a><br>
+          Skype: <a class="contact_color" href="skype:https://join.skype.com/invite/BacTYckiG6XE">Marcel-Patrick Schmiedle</a><br>
+          Mali:  <a class="contact_color" href="malito:m.schmiedle@gmx.de">Contact me!</a>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div>
+        <!--insert Facebook logo-->
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="img/svg/2142575_circle_colored_facebook_gradient_media_icon.svg" alt="Facebook" style="width: 40px; height: 40px"/>
+        </a>
+        <!--insert WatsApp logo-->
+        <a href="tel:+491626630654">
+          <img src="img/svg/2142581_circle_colored_gradient_media_social_icon.svg" alt="WhatsApp" style="width: 40px; height: 40px"/>
+        </a>
+        <!--insert linkedin logo-->
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="img/svg/2142574_circle_colored_gradient_linkedin_media_icon.svg" alt="linked in" style="width: 40px; height: 40px"/>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="js/tota11y.min.js"></script>
+</body>
+</html>
