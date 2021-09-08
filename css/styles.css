@@ -13,7 +13,6 @@
   --navbar-link-active-color: yellow;
   --primary-link-color: blue;
   --secondary-link-color_1: #fff;
-  --link-visited-color: #05676e;
   --link-active-color: #489c79;
   --button_1-bg-color: #357b70;
   --button_1-text-color: #fff;
@@ -224,10 +223,6 @@ a {
   color: var(--secondary-link-color_1);
 }
 
-a:visited {
-  /* visited link */
-  color: var(--link-visited-color);
-}
 
 a:hover, a:focus {
   /* No underlining when hovering over a link */
