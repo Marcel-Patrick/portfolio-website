@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-/*  Box-Sizing: Border-Box */
+/* Box-Sizing: Border-Box */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,7 +13,7 @@
 
 /* website styling configuration */
 :root {
-  /*color styling */
+  /* color styling */
 
   /* text styling */
 
@@ -26,14 +26,16 @@
   /* line vertical distance */
 
   /* text padding */
+
   /* the padding prefix is big as much as the value is big */
 }
-
 
 html,
 body,
 .page {
-  height: 100%; /* needed for proper layout */
+  height: 100%;
+
+  /* needed for proper layout */
   margin: auto 0;
 }
 
@@ -49,8 +51,10 @@ body {
   font-family: 'Aclonica', sans-serif;
   font-weight: 400;
   font-size: 12px;
+
   /* Sets the font size to 16px */
   line-height: 1.6;
+
   /* Sets the line-height to 1.6 */
   background-color: #bfbfbf;
   color: #000;
@@ -88,7 +92,9 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  position: relative;/* need this to position inner content */
+  position: relative;
+
+  /* need this to position inner content */
 }
 
 .page-content-center {
@@ -114,14 +120,14 @@ body {
   height: 500px;
 }
 
-main{
+main {
   overflow-y: auto;
   padding: 20px;
 }
 
 /* this css comment is needed,
 to make sure that we have a padding between <main> part and <footer>;
-when ther is an overflow(-y): auto (scrolling option)*/
+when ther is an overflow(-y): auto (scrolling option) */
 section::after {
   content: "";
   display: block;
@@ -133,6 +139,7 @@ h1 {
   font-size: 30px;
   font-weight: 400;
   line-height: 1.6;
+
   /* Sets the line-height to 1.6 */
 }
 
@@ -140,6 +147,7 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.6;
+
   /* Sets the line-height to 1.6 */
 }
 
@@ -147,6 +155,7 @@ h3 {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
+
   /* Sets the line-height to 1.6 */
 }
 
@@ -223,8 +232,8 @@ a {
   color: #fff;
 }
 
-
-a:hover, a:focus {
+a:hover,
+a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
 }
@@ -233,6 +242,7 @@ a:active {
   /* selected link */
   color: #489c79;
 }
+
 /* end link styling */
 
 /* start butten styling */
@@ -240,15 +250,19 @@ a:active {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
+
   /* takes the font from the outer container */
   font-family: inherit;
+
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: #357b70;
   color: #fff;
   text-decoration: none;
-  /*adds spacing to the button (this will be discussed more in-depth later) */
+
+  /* adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
   border-radius: 3px;
+
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.8s opacity, 0.8s background-color;
@@ -259,15 +273,19 @@ button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
+
   /* takes the font from the outer container */
   font-family: inherit;
+
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: #357b70;
   color: #fff;
   text-decoration: none;
-  /*adds spacing to the button (this will be discussed more in-depth later) */
+
+  /* adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
   border-radius: 3px;
+
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.8s opacity, 0.8s background-color;
@@ -279,8 +297,10 @@ button:hover {
   /* invert button clor */
   background-color: #fff;
   color: #357b70;
+
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
+
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
@@ -289,8 +309,10 @@ button:focus {
   /* invert button clor */
   background-color: #fff;
   color: #357b70;
+
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
+
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
@@ -299,8 +321,10 @@ button:focus {
   /* invert button clor */
   background-color: #fff;
   color: #357b70;
+
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
+
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
@@ -309,8 +333,10 @@ button:focus {
   /* invert button clor */
   background-color: #fff;
   color: #357b70;
+
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
+
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
@@ -323,6 +349,7 @@ button:focus {
 .button-yellow:hover {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
+
   /* reduces the opacity of the button to 80% */
   background-color: #2b2b2b;
   color: #e0b354;
@@ -332,11 +359,13 @@ button:focus {
 .button-yellow:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
+
   /* reduces the opacity of the button to 80% */
   background-color: #2b2b2b;
   color: #e0b354;
   opacity: 0.8;
 }
+
 /* end butten styling */
 
 /* start image styling */
@@ -359,25 +388,28 @@ button:focus {
   height: auto;
   border-radius: 50%;
 }
+
 /* end image styling */
 
 /* start item styling */
 .project a {
   color: blue;
 }
+
 /* end item styling */
 
 /* start grid fallback ->THIS IS ONE TERM! */
 .project__item {
   display: inline-block;
-  width: 33%;
   background-color: #cecece;
   padding: 15px;
   width: auto;
   min-height: auto;
   margin: 0;
 }
+
 /* end grid fallback */
+
 /* start grid syling */
 @supports (display: grid) {
   .project {
@@ -385,10 +417,14 @@ button:focus {
     display: grid;
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+
     /* grid-template-rows: 300px 300px; row will be adjusted automaticly */
-    grid-gap: 20px;/* Distance between items */
+    grid-gap: 20px;
+
+    /* Distance between items */
     margin: 0;
   }
+
   .project__item:last-child {
     -ms-grid-column: 3;
     grid-column: 3 / 3;
@@ -397,9 +433,11 @@ button:focus {
     grid-row: 1 / 3;
   }
 }
+
 /* END OF THE TERM */
 
-/* start media support*/
+/* start media support */
+
 /* if the browser window is less than 500px (eg. phones or tablets) just 1fr shall be used */
 @media all and (max-width: 500px) {
   @supports (display: grid) {
@@ -408,37 +446,44 @@ button:focus {
       grid-template-columns: 1fr;
     }
   }
-  svg{
+
+  svg {
     width: 250px;
     height: auto;
   }
+
   .profile__portrait {
     margin: 0;
     width: 140px;
     height: auto;
   }
+
   .profile {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column
+            flex-direction: column;
   }
-  .media-center{
+
+  .media-center {
     text-align: center;
   }
 }
+
 /* if the browser window is between 500px and 750px (eg. phones or tablets) just 2fr shall be used */
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   @supports (display: grid) {
     .project {
       -ms-grid-columns: 1fr 20px 1fr;
       grid-template-columns: 1fr 1fr;
     }
   }
-  svg{
+
+  svg {
     width: 500px;
     height: auto;
   }
+
   .profile__portrait {
     margin-left: 10px;
     width: 180px;
@@ -452,35 +497,44 @@ button:focus {
     .project {
       grid-gap: 10px;
     }
+
     .project__item:last-child {
       grid-column: auto / auto;
       grid-row: auto / auto;
     }
   }
+
   h1 {
     font-size: 24px;
   }
+
   h2 {
     font-size: 20px;
   }
+
   h3 {
     font-size: 16px;
   }
 }
+
 /* end media support */
+
 /* end grid styling */
 
 /* start Animation styling */
+
 /* for an animation is always needed: first: a @keyframes and second: a class! */
 @-webkit-keyframes color-change-sun {
   0% {
     fill: #edc655;
-    -webkit-transform: rotate( 4deg);
-            transform: rotate( 4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -488,12 +542,14 @@ button:focus {
 @keyframes color-change-sun {
   0% {
     fill: #edc655;
-    -webkit-transform: rotate( 4deg);
-            transform: rotate( 4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -503,9 +559,11 @@ button:focus {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -515,9 +573,11 @@ button:focus {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -527,9 +587,11 @@ button:focus {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -539,9 +601,11 @@ button:focus {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -553,6 +617,7 @@ button:focus {
     -webkit-transform: translate(0, 10px);
             transform: translate(0, 10px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
             transform: translate(200px, 50px);
@@ -563,6 +628,7 @@ button:focus {
     -webkit-transform: translate(0, 10px);
             transform: translate(0, 10px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
             transform: translate(200px, 50px);
@@ -574,6 +640,7 @@ button:focus {
     -webkit-transform: translate(446px, 48px);
             transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
             transform: translate(100px, 48px);
@@ -585,13 +652,15 @@ button:focus {
     -webkit-transform: translate(446px, 48px);
             transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
             transform: translate(100px, 48px);
   }
 }
 
-.sun, .sun-shine {
+.sun,
+.sun-shine {
   /* this is the long therm */
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
@@ -601,6 +670,7 @@ button:focus {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+
   /* possible values: ease, ease-in, ease-out, linear */
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
@@ -626,4 +696,5 @@ button:focus {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
           animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
 /* start Animation styling */
