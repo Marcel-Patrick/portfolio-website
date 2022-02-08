@@ -1,0 +1,30 @@
+/* ///////////////////////////////////////////////////////////////////// */
+/* project-styles.css */
+
+.project-logo {
+  text-align: center;
+  height: 75px;
+  width: auto;
+  padding: 3px;
+  border: solid white;
+  margin-right: 15px;
+}
+.headline {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.project-capture {
+  height: 180px;
+  width: auto;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+.gh-links {
+  margin: auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+  /* color: #f5f5f5; */
+}
