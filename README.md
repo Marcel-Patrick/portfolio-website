@@ -60,16 +60,16 @@ Your users should be able to view your professional portfolio website and naviga
 
 ## Homepage:
 
-![Screenshot](./img/Exercise 6.5/HomePage.png)
+![HomePage](img/Exercise 6.5/HomePage.png)
 
 ## About page:
 
-![Screenshot](./img/Exercise 6.5/AboutPage.png)
+![AboutPage](img/Exercise 6.5/AboutPage.png)
 
 ## Work page:
 
-![Screenshot](./img/Exercise 6.5/WorkPage.png)
+![WorkPage](img/Exercise 6.5/WorkPage.png)
 
 ## Contact page:
 
-![Screenshot](./img/Exercise 6.5/ContactPage.png)
+![ContactPage](img/Exercise 6.5/ContactPage.png)
