@@ -60,16 +60,24 @@ Your users should be able to view your professional portfolio website and naviga
 
 ## Homepage:
 
+[Link to Homepage](https://marcel-patrick.github.io/portfolio-website/index.html)
+
 ![HomePage](./img/Exercise-6.5/HomePage.png)
 
 ## About page:
+
+[Link to About me page](https://marcel-patrick.github.io/portfolio-website/about.html)
 
 ![AboutPage](./img/Exercise-6.5/AboutPage.png)
 
 ## Work page:
 
+[Link to My Work page](https://marcel-patrick.github.io/portfolio-website/work.html)
+
 ![WorkPage](./img/Exercise-6.5/WorkPage.png)
 
 ## Contact page:
+
+[Link to Contact me page](https://marcel-patrick.github.io/portfolio-website/contact.html)
 
 ![ContactPage](./img/Exercise-6.5/ContactPage.png)
