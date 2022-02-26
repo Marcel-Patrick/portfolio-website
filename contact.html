@@ -44,42 +44,42 @@
       <main class="page-content">
         <section>
           <div>
-            <h1>Wanna get in touch with me?</h1>
+            <h1>Wanna get in touch?</h1>
+            <form action="contact.html" method="post" id="contact-form">
+              <table class="text-distance-2">
+                <tr>
+                  <td><label class="standard-label" for="first-name">First Name:* </label></td>
+                  <td><input type="text" id="first-name" required maxlength="25" /></td>
+                </tr>
+                <tr>
+                  <td><label class="standard-label" for="last-name">Last Name:* </label></td>
+                  <td><input type="text" id="last-name" required maxlength="25" /></td>
+                </tr>
+                <tr>
+                  <td><label class="standard-label" for="contact-email">E-Mail:* </label></td>
+                  <td><input type="email" id="contact-email" required /></td>
+                </tr>
+                <tr>
+                  <td><label class="standard-label" for="telephone">Telephone: </label></td>
+                  <td><input type="tel" id="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" /></td>
+                </tr>
+                <tr>
+                  <td><label class="standard-label" for="message">Message:* </label></td>
+                  <td><textarea id="message" required maxlength="240"></textarea></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><p style="font-size: 12px">* this field is mandatory!</p></td>
+                </tr>
+                <tr>
+                  <td>
+                    <button class="button-yellow" type="button" name="button">Clear Form</button>
+                  </td>
+                  <td><button type="submit" name="button">Send Message</button></td>
+                </tr>
+              </table>
+            </form>
           </div>
-          <form action="contact.html" method="post" id="contact-form">
-            <table class="text-distance-2">
-              <tr>
-                <td><label class="standard-label" for="first-name">First Name:* </label></td>
-                <td><input type="text" id="first-name" required maxlength="25" /></td>
-              </tr>
-              <tr>
-                <td><label class="standard-label" for="last-name">Last Name:* </label></td>
-                <td><input type="text" id="last-name" required maxlength="25" /></td>
-              </tr>
-              <tr>
-                <td><label class="standard-label" for="contact-email">E-Mail:* </label></td>
-                <td><input type="email" id="contact-email" required /></td>
-              </tr>
-              <tr>
-                <td><label class="standard-label" for="telephone">Telephone: </label></td>
-                <td><input type="tel" id="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" /></td>
-              </tr>
-              <tr>
-                <td><label class="standard-label" for="message">Message:* </label></td>
-                <td><textarea id="message" required maxlength="240"></textarea></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td><p style="font-size: 12px">* this field is mandatory!</p></td>
-              </tr>
-              <tr>
-                <td>
-                  <button class="button-yellow" type="button" name="button">Clear Form</button>
-                </td>
-                <td><button type="submit" name="button">Send Message</button></td>
-              </tr>
-            </table>
-          </form>
           <div class="text-distance-2">
             <h3>Marcel-Patrick Schmiedle</h3>
             Eggenwatt 11 <br />
@@ -100,11 +100,11 @@
       <footer class="page-footer">
         <p>Find me on</p>
         <div>
-          <!--insert Facebook logo-->
-          <a href="https://www.facebook.com/" target="_blank">
+          <!--insert linkedin logo-->
+          <a href="https://www.linkedin.com/in/marcel-patrick-schmiedle-7a7386172/" target="_blank">
             <img
-              src="img/svg/2142575_circle_colored_facebook_gradient_media_icon.svg"
-              alt="Facebook"
+              src="img/svg/2142574_circle_colored_gradient_linkedin_media_icon.svg"
+              alt="linked in"
               style="width: 40px; height: 40px"
             />
           </a>
@@ -116,13 +116,31 @@
               style="width: 40px; height: 40px"
             />
           </a>
-          <!--insert linkedin logo-->
-          <a href="https://www.linkedin.com/" target="_blank">
+          <!--insert GitHub logo-->
+          <a href="https://github.com/Marcel-Patrick">
+            <img src="img/svg/icons8-github.svg" alt="GitHub" style="width: 45px; height: 45px" />
+          </a>
+
+          <!--insert Twitter logo-->
+          <a href="https://twitter.com/MarcelSchmiedle">
             <img
-              src="img/svg/2142574_circle_colored_gradient_linkedin_media_icon.svg"
-              alt="linked in"
+              src="img/svg/2142582_circle_colored_gradient_media_social_icon 23.33.27.svg"
+              alt="Twitter"
               style="width: 40px; height: 40px"
             />
+          </a>
+
+          <!--insert Facebook logo-->
+          <a href="https://www.facebook.com/marcelpatrick.schmiedlevonguggenmos/" target="_blank">
+            <img
+              src="img/svg/2142575_circle_colored_facebook_gradient_media_icon.svg"
+              alt="Facebook"
+              style="width: 40px; height: 40px"
+            />
+          </a>
+          <!--insert Medium logo-->
+          <a href="https://medium.com/@marcel.patrick.schmiedle" target="_blank">
+            <img src="img/svg/icons8-medium.svg" alt="Medium" style="width: 43px; height: 41px" />
           </a>
         </div>
       </footer>
