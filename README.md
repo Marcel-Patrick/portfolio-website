@@ -60,7 +60,7 @@ Your users should be able to view your professional portfolio website and naviga
 
 ## Homepage:
 
-![HomePage](img/Exercise 6.5/HomePage.png)
+![HomePage](../Exercise 6.5/HomePage.png)
 
 ## About page:
 
